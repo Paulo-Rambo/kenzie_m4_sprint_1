@@ -5,8 +5,8 @@
   "author": "FelipeSilva",
   "license": "MIT",
   "scripts": {
-    "test": "cross-env SECRET_KEY=secret_key jest --forceExit",
-    "dev": "nodemon ./src/app.js"
+    "dev": "nodemon src/app.js",
+    "test": "cross-env SECRET_KEY=secret_key jest --forceExit"
   },
   "dependencies": {
     "dotenv": "^16.0.2",
